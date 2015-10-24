@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content" method="upgrade">
+	<name>plg_content_backtotop</name>
+	<author>Nepoh</author>
+	<creationDate>10/2015</creationDate>
+	<copyright>Copyright (C) 2005 - 2015 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>nepoh@outlook.de</authorEmail>
+	<authorUrl>https://www.github.com/nepoh</authorUrl>
+	<version>1.0</version>
+	<description>PLG_CONTENT_BACKTOTOP_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="backtotop">backtotop.php</filename>
+		<filename>index.html</filename>
+		<folder>language</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="fragment" type="text" default=""
+					label="PLG_CONTENT_BACKTOTOP_FRAGMENT_LABEL"
+					description="PLG_CONTENT_BACKTOTOP_FRAGMENT_DESC" />
+				<field name="headings" type="checkboxes"
+					label="PLG_CONTENT_BACKTOTOP_HEADINGS_LABEL"
+					description="PLG_CONTENT_BACKTOTOP_HEADINGS_DESC">
+					<option value="1">H1</option>
+					<option value="2">H2</option>
+					<option value="3">H3</option>
+					<option value="4">H4</option>
+					<option value="5">H5</option>
+					<option value="6">H6</option>
+				</field>
+			</fieldset>
+			<fieldset name="style" label="PLG_CONTENT_BACKTOTOP_STYLE_FIELDSET_LABEL">
+				<field name="text" type="text" default=""
+					label="PLG_CONTENT_BACKTOTOP_TEXT_LABEL"
+					description="PLG_CONTENT_BACKTOTOP_TEXT_DESC" />
+				<field name="icon" type="text" default=""
+					label="PLG_CONTENT_BACKTOTOP_ICON_LABEL"
+					description="PLG_CONTENT_BACKTOTOP_ICON_DESC" />
+				<field name="class" type="text" default=""
+					label="PLG_CONTENT_BACKTOTOP_CLASS_LABEL"
+					description="PLG_CONTENT_BACKTOTOP_CLASS_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
