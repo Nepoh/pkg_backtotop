@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="package" method="upgrade">
+	<name>pkg_backtotop</name>
+	<packagename>backtotop</packagename>
+	<packager>Nepoh</packager>
+	<packagerUrl>https://www.github.com/nepoh</packagerUrl>
+	<creationDate>10/2015</creationDate>
+	<copyright>Copyright (C) 2005 - 2015 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0</version>
+	
+	<scriptfile>script.php</scriptfile>
+	
+	<files>
+		<file type="plugin" id="backtotop" group="editors-xtd">plg_editors-xtd_backtotop.zip</file>
+		<file type="plugin" id="backtotop" group="content">plg_content_backtotop.zip</file>
+	</files>
+</extension>
